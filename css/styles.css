@@ -1,0 +1,30 @@
+/* Home Page */
+
+body{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #F7ECDE;
+}
+
+img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10%;
+}
+
+li{
+    list-style: none;
+    padding: 3% 0%;
+    font-size: larger;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+}
+
+.heading{
+    font-size: 3rem;
+    color:#7C99AC;
+}
