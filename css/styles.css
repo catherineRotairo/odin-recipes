@@ -20,7 +20,7 @@ img{
 ul{
     display: flex;
     justify-content: center;
-    gap: 10px;
+    /* gap: 10px; */
     padding-left: 0;
 }
 
@@ -40,5 +40,13 @@ a{
     font-size: 3rem;
     color:#7C99AC;
     letter-spacing: 5px;
+
+}
+
+.recipes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
