@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #F7ECDE;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 700px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10%;
+}
+
+.main-content{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 30px 100px;
+}
+
+.ingredients{
+    width: 150px;
+    flex-shrink: 0;
+}
+
+.des-step-container{
+    width: 600px;
+    flex-shrink: 0;
+}
